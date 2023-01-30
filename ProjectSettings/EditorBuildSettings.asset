@@ -9,4 +9,5 @@ EditorBuildSettings:
     path: Assets/Oculus/VR/Scenes/HandTest_Custom.unity
     guid: c884d076d6398b54492bcc64bbe30bf5
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bf2c8e8c93374934498a50ff2b24a867, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cda65775acdfb65438fb95564593b93a, type: 2}
