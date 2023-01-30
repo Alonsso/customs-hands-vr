@@ -72,9 +72,18 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 #Oculus assets
-[Aa]ssets/[Oo]culus
+#[Aa]ssets/[Oo]culus
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 # Ignore these Oculus files because they store your secret App ID
 Assets/Resources/OvrAvatarSettings.asset
 Assets/Resources/OculusPlatformSettings.asset
 Assets/Resources/OculusPlatformSettings.asset.meta
+
+Assets/Oculus/VR/Editor/Tools/ovr-platform-util.exe
+Assets/Oculus/VR/Editor/Tools/ovr-platform-util.exe.meta
+Assets/Oculus/VR/Editor/Tools.meta
+Assets/Oculus/VR.meta
+Assets/Oculus/VR/Editor.meta
