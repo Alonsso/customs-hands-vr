@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+#Oculus assets
+[Aa]ssets/[Oo]culus
+
+# Ignore these Oculus files because they store your secret App ID
+Assets/Resources/OvrAvatarSettings.asset
+Assets/Resources/OculusPlatformSettings.asset
+Assets/Resources/OculusPlatformSettings.asset.meta
